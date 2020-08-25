@@ -1,0 +1,39 @@
+.column {
+    float: left;
+    width: 33.33%;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .column{
+      text-align: center;
+  }
+
+  #para{
+    color: blue;
+    
+  }
+  /* .third-div{
+      margin-inline: 0px;
+      background: rgb(133, 133, 20);
+  } */
+
+/* @media (min-width: 567px) {
+    .navbar-brand
+    {
+        position: absolute;
+        top: 5px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .navbar {
+        min-height: 90px;
+    }
+} */
+/* .navbar.navbar-expand-sm.navbar-dark.bg-dark{
+    background-color: blue;
+} */
